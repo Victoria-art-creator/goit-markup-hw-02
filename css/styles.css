@@ -67,16 +67,16 @@ a {
     cursor: pointer; 
 }
 
-.button:hover {
+.button:hover, .button:focus {
     background-color: #404bbf;
 }
 
-.button-title { 
+.button .button-title { 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .solutions-list-item-title {    
@@ -98,13 +98,14 @@ a {
     background-color: #f4f4fd;
 }
 
-.team-title, .portfolio-title { 
+.team-title { 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list-item {
@@ -126,6 +127,16 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list-item-title {
